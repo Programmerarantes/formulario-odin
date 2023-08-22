@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Inscrição</title>
+</head>
+<body>
+    <div class="main">
+        <div class="side-hero">
+            <div>
+                <img src="./images/odin-lined.png" alt="the odin project">
+                <h1>Sign up Form</h1>
+            </div>
+        </div>
+    
+    <div class="form-section">
+        <header class="header">
+            <div>
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+                <p>You know you want to.</p>
+            </div>
+        </header>
+        <div>
+            <div class="input-section">
+                <p>Let's do This!</p>
+                <form id="form-box">
+                    <label for="firstname">First Name
+                    <input type="text" name="firstname" id="firstname" required>
+                    </label>
+
+                    <label for="lastname">Last Name
+                    <input type="text" name="lastname" id="lastname" required>
+                    </label>
+
+                    <label for="email">Email
+                    <input type="email" name="firstname" id="firstname">
+                    </label>
+
+                    <label for="phonenumber">Phonenumber
+                    <input type="tel" name="phonenumber" id="phonenumber" required pattern="[0-9]{10}">
+                    </label>
+
+                    <label for="password">Password
+                    <input type="password" name="password" id="password">
+                    </label>
+
+                    <label for="passwordC">Confirm Password
+                    <input type="password" name="passwordC" id="passwordC">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="submit-section">
+            <div>
+                <button type="submit" form="form-box">
+                    Create Account
+                </button>
+                <p>Already have an account ? <a href="">Log in</a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
